@@ -1,0 +1,30 @@
+.side h3{
+    background-color: red;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+
+}
+.side{
+    margin-left:2em;
+    margin-top:2em;
+    display:flex;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+form .formElements{
+    display: flex;
+    justify-content: space-between;
+}
+h3 img{
+    height:100%;
+    width:40px;
+}
+h3 img:hover{
+    cursor: pointer;
+}
